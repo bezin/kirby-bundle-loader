@@ -31,7 +31,7 @@ Add the repository to your `composer.json`:
 
 Add run `composer require`:
 ```bash
-composer require bezin/kirby-bundle-loader
+composer require bezin/kirby-bundle-loader:dev-main
 ```
 ### 2. After installing
 
