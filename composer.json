@@ -1,0 +1,16 @@
+{
+    "name": "bezin/kirby-bundle-loader",
+    "description": "Load plugins from /app and do not mix first-party code with third-party plugins anymore",
+    "type": "kirby-plugin",
+    "require": {
+        "getkirby/composer-installer": "^1.2",
+        "getkirby/cms": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benedict Massolle",
+            "email": "bm@presentprogressive.de"
+        }
+    ]
+}

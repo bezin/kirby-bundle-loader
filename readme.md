@@ -11,7 +11,29 @@ This plugin is for you, if you like to structure your project-specific code into
 ----
 
 ## Installation
-Download the archive and drop it into `site/plugins`. No composer support yet. 
+
+### 1a. ZIP archive
+Download the archive and drop it into `site/plugins`.
+
+### 1b. Composer
+
+Add the repository to your `composer.json`:
+```json
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/bezin/kirby-bundle-loader"
+		}
+	]
+}
+```
+
+Add run `composer require`:
+```bash
+composer require bezin/kirby-bundle-loader
+```
+### 2. After installing
 
 Move your project-specific plugin to `/app/$plugin`. Do not register the plugin in your `index.php` but instead return the array with the extensions: 
 

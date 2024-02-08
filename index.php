@@ -3,7 +3,7 @@
 use Kirby\Cms\App;
 use Kirby\Filesystem\Dir;
 
-App::plugin('presprog/bundle-loader', [
+App::plugin('bezin/bundle-loader', [
 	'hooks' => [
 		/**
 		 * Loads bundles from /app like plugins from /site/plugins.
